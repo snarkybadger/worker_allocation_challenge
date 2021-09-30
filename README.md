@@ -8,16 +8,19 @@ implementing the method schedule(buildings, employees). Stipulations are below:
 - Assume buildings are given in the order of their importance -- no need for anything but a simple
 in-order scheduling
 - There are 3 types of employees:
-○ Certified installers
-○ Installers pending certification
-○ Handypeople
+  - Certified installers
+  - Installers pending certification
+  - Handypeople
 - There are 3 types of buildings, each requiring a different set of employees. All installs are done in 1 day.
-○ Single story homes require:
+
+Single story homes require:
 - 1 certified installer
-○ Two story homes require:
+
+Two story homes require:
 - 1 certified installer AND
 - 1 installer pending certification OR a handyperson
-○ Commercial buildings require:
+
+Commercial buildings require:
 - 2 certified installer AND
 - 2 installers pending certification AND
 - 4 workers of any type (cert, pending or handypeople)
